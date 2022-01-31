@@ -1,5 +1,6 @@
-# CreateInstance
-Luau function to create instances in a "tree" format.
+# UIFramework
+Luau function to create GUIs in a "tree" format.
+Inspired by Roact.
 
 # Example
 ```lua
