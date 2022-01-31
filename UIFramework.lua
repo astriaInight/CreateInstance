@@ -7,6 +7,10 @@ local black = Color3.fromRGB(0, 0, 0)
 --// Module values
 creator.rgb = Color3.fromRGB
 creator.ud2 = UDim2.new
+creator.colors = {
+	white = white,
+	black = black
+}
 
 --// Funcs
 local function objByName(objects, objName)
