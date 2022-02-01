@@ -76,6 +76,16 @@ function creator.tree(objects)
 		objects.Parent = treeParent
 	end
 	
+	function tree.style(stylesheet)
+		for elemName, elemProps in pairs(stylesheet) do
+			local elem = tree.getByName(elemName)
+
+			for propName, propValue in pairs(elemProps) do
+				elem[propName] = propValue
+			end
+		end
+	end
+	
 	return tree
 end
 
